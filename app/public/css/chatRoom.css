@@ -114,3 +114,7 @@ body {
   border-radius: 5px;
   background-color: #9a91ce;
 }
+
+.item-form-icon {
+  font-size: 2rem;
+}
