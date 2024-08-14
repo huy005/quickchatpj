@@ -7,4 +7,4 @@
 ![image](https://github.com/user-attachments/assets/c44ac267-3e7a-4b5b-b6e2-8805d921deb4)
 ![image](https://github.com/user-attachments/assets/f526aee3-bb4c-4d60-8f24-a8ca9ebb9daa)
 別の入った人は会話できたり現在の場所が共有できたりします。
-また、開発中のため、新規登録、絵文字送信やデータベース保持など追加機能を行います。
+また、開発中のため、新規登録、絵文字送信やデータベース保持(Sequalize,MySQL)など追加機能を行います。
