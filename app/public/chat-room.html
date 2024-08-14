@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickChatRoom</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/chatRoom.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row chatRoom">
+      <div class="col-3 chatRoom_left">
+        <h2 class="chatRoom_left_roomName" id="leftChatRoom_roomName">
+          <!-- ROOMNAME -->
+        </h2>
+        <ul class="chatRoom_left_userList" id="leftChatRoom_userList">
+          <!-- USERLIST -->
+        </ul>
+      </div>
+      <div class="col-9 chatRoom_right">
+        <div class="chatRoom_content" id="rightChatRoom_content">
+          <!-- MESSAGE CONTENT -->
+        </div>
+        <div class="container">
+          <form id="chatRoom_form">
+            <div class="row chatRoom_form_row">
+              <div class="col-9 chatRoom_form_input">
+                <input type="text" name="chatRoom_form_inputMessage" id="chatRoom_form_inputMessage" />
+              </div>
+              <div class="col-3 chatRoom_form_btn">
+                <span class="chatRoom_btn_send"><button class="chatRoom_btn_send" type="submit">Send</button></span>
+                <span class="chatRoom_btn_location"><button type="button" id="chatRoom_shareLocationBtn"><i
+                      class="fa fa-location-arrow"></i></button></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- boostrap jquery, js -->
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- socketio cdn -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js"
+    integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/client-chat.js"></script>
+</body>
+
+</html>

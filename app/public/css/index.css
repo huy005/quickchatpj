@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body {
+  background-image: url("../images/background3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #06437a;
+  width: 100%;
+  height: 585px;
+}
+
+.header_title {
+  font-size: 100px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.main_chat {
+  margin: 80px auto;
+}
+
+.chat_right {
+  width: 680px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebc5d0;
+}
+
+.join_btn_cover {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.join_btn {
+  padding: 10 auto;
+  width: 180px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #9a91ce;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+/* ---chat.html */
+/* .roomName{
+  text-align: center;
+} */
+.userList {
+  list-style: none;
+  font-size: 25px;
+}
+
+.index-item-form {
+  margin: 1rem;
+}
+
+.item-form-icon {
+  font-size: 2rem;
+}

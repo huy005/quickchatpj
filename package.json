@@ -1,0 +1,29 @@
+{
+  "name": "quickchatpj",
+  "version": "1.0.0",
+  "description": "This application allows exchanging messages in realtime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/src/server.js",
+    "dev": "nodemon app/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huy005/quickchatpj.git"
+  },
+  "author": "huy005",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huy005/quickchatpj/issues"
+  },
+  "homepage": "https://github.com/huy005/quickchatpj#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "date-format": "^4.0.14",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
