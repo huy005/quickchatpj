@@ -8,6 +8,6 @@
 
 次は別のブラウザのタブを開き、別のアカウントと同じチャットルームを入力し、「入る」ボタンを押下します。
 別の入った人は会話できたり現在の場所が共有できたりします。
-![image](https://github.com/user-attachments/assets/80591037-c897-4177-847c-397433480de0)
+![image](https://github.com/user-attachments/assets/368239c0-6336-4808-b0d4-3c9d75199d23)
 ![image](https://github.com/user-attachments/assets/c44ac267-3e7a-4b5b-b6e2-8805d921deb4)
 ![image](https://github.com/user-attachments/assets/f526aee3-bb4c-4d60-8f24-a8ca9ebb9daa)
